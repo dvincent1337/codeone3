@@ -1,0 +1,124 @@
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Sep 27, 2015 21:38PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHEN category_id='3'' at line 1</p>
+
+           <p><strong>Code:</strong> 42000</p>
+
+           <p><strong>File:</strong> C:\Users\david\public_html\programoja\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 104</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\Users\david\public_html\programoja\app\Helpers\Database.php(104): PDOStatement->execute()
+#1 C:\Users\david\public_html\programoja\app\Models\Article.php(28): Helpers\Database->select('SELECT * FROM a...', Array)
+#2 C:\Users\david\public_html\programoja\app\Controllers\Navigation.php(45): Models\Article->getArticlesByCategory('3')
+#3 [internal function]: Controllers\Navigation->getArticlesByCategory('3')
+#4 C:\Users\david\public_html\programoja\app\Core\Router.php(124): call_user_func_array(Array, Array)
+#5 C:\Users\david\public_html\programoja\app\Core\Router.php(248): Core\Router::invokeObject('Controllers\\Nav...', Array)
+#6 C:\Users\david\public_html\programoja\app\Core\routes.php(34): Core\Router::dispatch()
+#7 C:\Users\david\public_html\programoja\index.php(81): require('C:\\Users\\david\\...')
+#8 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Sep 27, 2015 21:08PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codeone3.sections' doesn't exist</p>
+
+           <p><strong>Code:</strong> 42S02</p>
+
+           <p><strong>File:</strong> C:\Users\david\public_html\programoja\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 82</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\Users\david\public_html\programoja\app\Helpers\Database.php(82): PDO->query('SELECT * from s...')
+#1 C:\Users\david\public_html\programoja\app\Models\Article.php(33): Helpers\Database->raw('SELECT * from s...')
+#2 C:\Users\david\public_html\programoja\app\Controllers\Editor.php(44): Models\Article->getAllSections()
+#3 [internal function]: Controllers\Editor->index()
+#4 C:\Users\david\public_html\programoja\app\Core\Router.php(124): call_user_func_array(Array, Array)
+#5 C:\Users\david\public_html\programoja\app\Core\Router.php(248): Core\Router::invokeObject('Controllers\\Edi...', Array)
+#6 C:\Users\david\public_html\programoja\app\Core\routes.php(32): Core\Router::dispatch()
+#7 C:\Users\david\public_html\programoja\index.php(81): require('C:\\Users\\david\\...')
+#8 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Sep 27, 2015 21:08PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codeone3.sections' doesn't exist</p>
+
+           <p><strong>Code:</strong> 42S02</p>
+
+           <p><strong>File:</strong> C:\Users\david\public_html\programoja\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 82</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\Users\david\public_html\programoja\app\Helpers\Database.php(82): PDO->query('SELECT * from s...')
+#1 C:\Users\david\public_html\programoja\app\Models\Article.php(33): Helpers\Database->raw('SELECT * from s...')
+#2 C:\Users\david\public_html\programoja\app\Controllers\Editor.php(44): Models\Article->getAllSections()
+#3 [internal function]: Controllers\Editor->index()
+#4 C:\Users\david\public_html\programoja\app\Core\Router.php(124): call_user_func_array(Array, Array)
+#5 C:\Users\david\public_html\programoja\app\Core\Router.php(248): Core\Router::invokeObject('Controllers\\Edi...', Array)
+#6 C:\Users\david\public_html\programoja\app\Core\routes.php(32): Core\Router::dispatch()
+#7 C:\Users\david\public_html\programoja\index.php(81): require('C:\\Users\\david\\...')
+#8 {main}</pre>
+
+           <hr />
+<p>Error on Sep 27, 2015 20:16PM - require_once(navigation_header.php): failed to open stream: No such file or directory in C:\Users\david\public_html\programoja\app\templates\default\header.php on line 41</p><p>Error on Sep 27, 2015 20:00PM - require(C:\Users\david\public_html\programoja\app/views/navigation/navigation.php): failed to open stream: No such file or directory in C:\Users\david\public_html\programoja\app\Core\View.php on line 37</p><p>Error on Sep 27, 2015 19:59PM - require(C:\Users\david\public_html\programoja\app/views/navigation/navigation.php): failed to open stream: No such file or directory in C:\Users\david\public_html\programoja\app\Core\View.php on line 37</p><p>Error on Sep 27, 2015 19:59PM - require(C:\Users\david\public_html\programoja\app/views/navigation/navigation.php): failed to open stream: No such file or directory in C:\Users\david\public_html\programoja\app\Core\View.php on line 37</p><p>Error on Sep 27, 2015 19:59PM - require(C:\Users\david\public_html\programoja\app/views/navigation/navigation.php): failed to open stream: No such file or directory in C:\Users\david\public_html\programoja\app\Core\View.php on line 37</p><p>Error on Sep 27, 2015 19:05PM - Missing argument 1 for Controllers\Editor::edit() in C:\Users\david\public_html\programoja\app\Controllers\Editor.php on line 69</p><p>Error on Sep 27, 2015 19:00PM - Missing argument 1 for Controllers\Editor::edit() in C:\Users\david\public_html\programoja\app\Controllers\Editor.php on line 69</p><p>Error on Sep 27, 2015 18:59PM - Missing argument 1 for Controllers\Editor::edit() in C:\Users\david\public_html\programoja\app\Controllers\Editor.php on line 69</p><p>Error on Sep 27, 2015 18:58PM - Missing argument 1 for Controllers\Editor::edit() in C:\Users\david\public_html\programoja\app\Controllers\Editor.php on line 69</p><p>Error on Sep 27, 2015 18:58PM - preg_match(): Compilation failed: unmatched parentheses at offset 13 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><p>Error on Sep 27, 2015 18:58PM - preg_match(): Compilation failed: unmatched parentheses at offset 13 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><p>Error on Sep 27, 2015 18:58PM - preg_match(): Compilation failed: unmatched parentheses at offset 13 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><p>Error on Sep 27, 2015 18:58PM - preg_match(): Compilation failed: unmatched parentheses at offset 13 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><p>Error on Sep 27, 2015 18:57PM - preg_match(): Compilation failed: unmatched parentheses at offset 11 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><p>Error on Sep 27, 2015 18:57PM - preg_match(): Compilation failed: unmatched parentheses at offset 11 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><p>Error on Sep 27, 2015 18:57PM - preg_match(): Compilation failed: unmatched parentheses at offset 11 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><p>Error on Sep 27, 2015 18:57PM - preg_match(): Compilation failed: unmatched parentheses at offset 11 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><p>Error on Sep 27, 2015 18:57PM - preg_match(): Compilation failed: unmatched parentheses at offset 11 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><p>Error on Sep 27, 2015 18:56PM - preg_match(): Compilation failed: unmatched parentheses at offset 11 in C:\Users\david\public_html\programoja\app\Core\Router.php on line 239</p><h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Sep 27, 2015 15:25PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[HY000] [1049] Unknown database 'dbname'</p>
+
+           <p><strong>Code:</strong> 1049</p>
+
+           <p><strong>File:</strong> C:\Users\david\public_html\programoja\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 61</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\Users\david\public_html\programoja\app\Helpers\Database.php(61): PDO->__construct('mysql:host=loca...', 'root', '********')
+#1 C:\Users\david\public_html\programoja\app\Models\Article.php(12): Helpers\Database::get()
+#2 C:\Users\david\public_html\programoja\app\Controllers\Editor.php(28): Models\Article->__construct()
+#3 C:\Users\david\public_html\programoja\app\Core\Router.php(122): Controllers\Editor->__construct(NULL)
+#4 C:\Users\david\public_html\programoja\app\Core\Router.php(248): Core\Router::invokeObject('Controllers\\Edi...', Array)
+#5 C:\Users\david\public_html\programoja\app\Core\routes.php(30): Core\Router::dispatch()
+#6 C:\Users\david\public_html\programoja\index.php(81): require('C:\\Users\\david\\...')
+#7 {main}</pre>
+
+           <hr />
+<h3>Exception information:</h3>
+
+           <p><strong>Date:</strong> Sep 27, 2015 15:24PM</p>
+
+           <p><strong>Message:</strong> SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)</p>
+
+           <p><strong>Code:</strong> 1045</p>
+
+           <p><strong>File:</strong> C:\Users\david\public_html\programoja\app\Helpers\Database.php</p>
+
+           <p><strong>Line:</strong> 61</p>
+
+           <h3>Stack trace:</h3>
+
+           <pre>#0 C:\Users\david\public_html\programoja\app\Helpers\Database.php(61): PDO->__construct('mysql:host=loca...', 'root', '********')
+#1 C:\Users\david\public_html\programoja\app\Models\Article.php(12): Helpers\Database::get()
+#2 C:\Users\david\public_html\programoja\app\Controllers\Editor.php(28): Models\Article->__construct()
+#3 C:\Users\david\public_html\programoja\app\Core\Router.php(122): Controllers\Editor->__construct(NULL)
+#4 C:\Users\david\public_html\programoja\app\Core\Router.php(248): Core\Router::invokeObject('Controllers\\Edi...', Array)
+#5 C:\Users\david\public_html\programoja\app\Core\routes.php(30): Core\Router::dispatch()
+#6 C:\Users\david\public_html\programoja\index.php(81): require('C:\\Users\\david\\...')
+#7 {main}</pre>
+
+           <hr />
+<p>Error on Sep 26, 2015 19:46PM - require(C:\Users\david\public_html\programoja\app/views/editor/editor .php): failed to open stream: No such file or directory in C:\Users\david\public_html\programoja\app\Core\View.php on line 37</p><p>Error on Sep 26, 2015 19:46PM - require(C:\Users\david\public_html\programoja\app/views/editor/editor .php): failed to open stream: No such file or directory in C:\Users\david\public_html\programoja\app\Core\View.php on line 37</p>

@@ -1,0 +1,15 @@
+.accordion-intro {
+    background: rgb(71,167,200) !important;
+}
+
+.accordion-info {
+    background: rgb(100,200,100) !important;
+}
+
+.accordion-service {
+    background: rgb(255,240,0) !important;
+}
+
+.accordion-question {
+    background: rgb(255,140,20) !important;
+}
